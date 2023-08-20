@@ -20,21 +20,21 @@ ul {
             background-color: gray;
             padding: 10px;
             width: 50%;
-            font-size: 16px; /* Default font size */
+            font-size: 16px;
         }
 
-        /* White background for odd items */
+       
         li:nth-child(odd) {
             background-color: white;
         }
 
-        /* Font size for first and last items */
+        
         li:first-child,
         li:last-child {
             font-size: 22px;
         }
 
-        /* Pink background for third-to-last item */
+       
         li:nth-last-child(3) {
             background-color: pink;
         }
